@@ -1,0 +1,13 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 13rem;
+  gap: 2rem;
+  flex-direction: column;
+}

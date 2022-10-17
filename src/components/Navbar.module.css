@@ -1,0 +1,16 @@
+.nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding: 2rem;
+  border-radius: 0 0 20px 20px;
+  background-color: var(--background-color);
+  box-shadow: var(--shadow);
+}
+
+.nav__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
