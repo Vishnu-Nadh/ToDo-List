@@ -1,21 +1,10 @@
 import React from "react";
-import styles from "./AddTask.module.css";
+import TaskForm from "./TaskForm";
 
 const AddTask = () => {
-  return (
-    <form action="#" method="post" className={styles.addtask}>
-      <input type="text" placeholder="Enter your task here" />
-      <button
-        type="submit"
-        className={styles.addtask__btn}
-        onClick={(e) => {
-          e.preventDefault();
-        }}
-      >
-        <span>Add Task</span>
-      </button>
-    </form>
-  );
+  const inputValue = "";
+  const buttonText = "Add Task";
+  return <TaskForm inputValue={inputValue} buttonText={buttonText} />;
 };
 
 export default AddTask;

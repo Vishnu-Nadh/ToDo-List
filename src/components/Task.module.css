@@ -36,11 +36,11 @@
   transition: all 0.3s ease-in-out;
 }
 
-.task__btn:hover {
+/* .task__btn:hover {
   color: var(--accent-text-color-light);
   transform: scale(1.1);
-}
+} */
 
-.task__btn:active {
+/* .task__btn:active {
   color: var(--accent-text-color);
-}
+} */

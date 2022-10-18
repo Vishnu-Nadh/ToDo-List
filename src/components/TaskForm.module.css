@@ -1,11 +1,11 @@
-.addtask {
+.taskform {
   height: 6rem;
   width: 75%;
   display: flex;
   justify-content: flex-end;
 }
 
-.addtask input {
+.taskform input {
   color: inherit;
   font-size: 1.8rem;
   font-weight: 500;
@@ -20,12 +20,12 @@
   flex: 1;
 }
 
-.addtask input:focus {
+.taskform input:focus {
   outline: none;
   box-shadow: inset 0px 0px 0px 2px var(--accent-color-light);
 }
 
-.addtask__btn {
+.taskform__btn {
   background-color: var(--accent-color);
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
@@ -36,16 +36,16 @@
   font-weight: 600;
 }
 
-.addtask__btn:hover {
+.taskform__btn:hover {
   background-color: var(--accent-color-light);
 }
 
-.addtask__btn:active {
+.taskform__btn:active {
   background-color: var(--accent-color-dark);
 }
 
 @media screen and (min-width: 768px) {
-  .addtask {
+  .taskform {
     width: 75rem;
   }
 }
