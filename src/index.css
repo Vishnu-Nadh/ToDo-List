@@ -26,6 +26,7 @@
   --accent-color-light: #f6a823;
   --accent-text-color: #242424;
   --accent-text-color-light: #505050;
+  --accent-gradient-color: linear-gradient(to bottom right, #f59e0b, #b6a000);
 }
 
 [data-theme="light"] {
@@ -37,6 +38,7 @@
   --accent-color-light: #99e2f2;
   --accent-text-color: #242424;
   --accent-text-color-light: #505050;
+  --accent-gradient-color: linear-gradient(to bottom right, #8edff0, #7fa4db);
 }
 
 html {
