@@ -4,4 +4,4 @@ This project is a simple to do list application with all the CRUD functionality.
 
 ## Demo
 
-![todoapp](https://github.com/Vishnu-Nadh/ToDo-List/todo.gif?raw=true)
+![todoapp](https://github.com/Vishnu-Nadh/ToDo-List/blob/main/todo.gif)
